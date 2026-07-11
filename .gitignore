@@ -30,3 +30,7 @@ codegen/
 
 # Octave session info
 octave-workspace
+
+### drawio ###
+# Backup files
+*.bkp
