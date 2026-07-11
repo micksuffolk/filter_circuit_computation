@@ -77,7 +77,7 @@ _Filter circuit_
 
 <img src="./docs/lib/images/lcl.svg" width="450"/>
 
-_Bode plot (filter G(s) = ign / Vin)_
+_Bode plot (filter impedance)_
 
 &nbsp;
 
