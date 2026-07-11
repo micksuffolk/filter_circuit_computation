@@ -5,7 +5,7 @@ Electrical filter transfer functions and calculations, based on standardised and
 * [Overview](#overview)
 * [Octave](#octave)
 * [Filters](#filters)
-    * [C-Type Passive Filter - CTPF](#c-type-passive-filter---ctpf))
+    * [C-Type Passive Filter - CTPF](#c-type-passive-filter---ctpf)
 
 &nbsp;
 
