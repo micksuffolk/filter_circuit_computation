@@ -5,6 +5,7 @@ Electrical filter transfer functions and calculations, based on standardised and
 * [Overview](#overview)
 * [Octave](#octave)
 * [Filters](#filters)
+    * [Terminology](#terminology)
     * [C-Type Passive Filter - CTPF](#c-type-passive-filter---ctpf)
 
 &nbsp;
@@ -29,11 +30,25 @@ The aim of this repository is to gather concise and useful filter design and res
 
 ## Filters
 
+
+### Terminology
+
+- Shunt filters
+    - Prevent a particular frequency from entering further into a system by providing a shunt path of low impedance to the relevant frequency.
+- Series filters
+    - Prevent a particular frequency from entering the system by presenting a large series impedance to the relevant frequency.
+
+&nbsp;
+
+
+
 ### C-Type Passive Filter - CTPF
 
-Generally used for filtering low order harmonics i.e. up to the 5th harmonic.
-
-> Novel Design Methodology for C-type Harmonic Filter Banks Applied in HV and EHV Networks, Randy Horton, Senior Member, IEEE, Roger Dugan, Fellow, IEEE, Daryl Hallmark, Member, IEEE. 2012. DOI: 10.1109/TDC.2012.6281629
+| Feature | Comments |
+| :------ | :------ |
+| Reference paper(s) | Novel Design Methodology for C-type Harmonic Filter Banks Applied in HV and EHV Networks, Randy Horton, Roger Dugan, Daryl Hallmark. DOI 10.1109/TDC.2012.6281629 |
+| Use case(s) | Shunt filter. Filtering low order harmonics i.e. up to the 5th harmonic in an AC power system |
+| Source code | [ctpf.m](./src/ctpf/ctpf.m) |
 
 <img src="./docs/schematics/D000001_CTPF.svg" width="450"/>
 
@@ -42,8 +57,6 @@ _Filter circuit_
 <img src="./docs/lib/images/ctpf.svg" width="450"/>
 
 _Bode plot (filter impedance)_
-
-- Source code: [ctpf.m](./src/CTPF/ctpf.m)
 
 &nbsp;
 
