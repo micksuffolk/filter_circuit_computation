@@ -8,9 +8,9 @@ clc; % command line clear
 pkg load control
 
 % Define filter parameters
-Li = 200e-06; % Inverter side inductor
-Cf_wye = 180e-06; % Filter capacitor in wye arrangement
-Lg = 100e-03; % Grid side inductor
+Li = 200e-06; % Inverter side inductor 200uH example
+Cf_wye = 180e-06; % Filter capacitor in wye arrangement 180uF example
+Lg = 100e-06; % Grid side inductor 100uH example
 
 % Setup a transfer function in the `s` domain [laplace]
 s = tf('s');
