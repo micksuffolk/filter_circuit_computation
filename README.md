@@ -7,6 +7,7 @@ Electrical filter transfer functions and calculations, based on standardised and
 * [Filters](#filters)
     * [Terminology](#terminology)
     * [C-Type Passive Filter - CTPF](#c-type-passive-filter---ctpf)
+    * [LCL Filter](#lcl-filter)
 
 &nbsp;
 
@@ -57,6 +58,26 @@ _Filter circuit_
 <img src="./docs/lib/images/ctpf.svg" width="450"/>
 
 _Bode plot (filter impedance)_
+
+&nbsp;
+
+
+
+### LCL Filter
+
+| Feature | Comments |
+| :------ | :------ |
+| Reference paper(s) | An Improved LCL Filter Design in Order to Ensure Stability without Damping and Despite Large Grid Impedance Variations, Marwa Ben Said-Romdhane, Mohamed Wissem Naouar, Ilhem Slama Belkhodja, and Eric Monmasson. DOI 10.3390/en10030336 |
+| Use case(s) | Series filter. The main objective of the LCL filter is to reduce the high-order current harmonics at the inverter switching frequency |
+| Source code | [lcl.m](./src/lcl/lcl.m) |
+
+<img src="./docs/schematics/D000001_LCL.svg" width="450"/>
+
+_Filter circuit_
+
+<img src="./docs/lib/images/lcl.svg" width="450"/>
+
+_Bode plot (filter G(s) = ign / Vin)_
 
 &nbsp;
 
