@@ -16,7 +16,7 @@ Lg = 100e-03; % Grid side inductor
 s = tf('s');
 
 % Transfer function for filter current response G(s) = ign(s) / Vin(s)
-% where `ign` = Grid current and `Vin` = Inverter voltage
+% where `ign` = Grid current and `Vin` = Inverter voltage (n = phase [a, b, c])
 % Doc: An Improved LCL Filter Design in Order to Ensure Stability without
 % Damping and Despite Large Grid Impedance Variations, MDPI 2017
 % Authors: Romdhane, Naouar, Belkhodja, Monmasson
