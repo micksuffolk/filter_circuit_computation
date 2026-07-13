@@ -51,5 +51,5 @@ xlabel('Frequency[Hz]');
 % Note, to calculate dB from the Cf calculation = 20*Log(Zf)
 f = 150; % What frequency do we want to calculate the filter impedance?
 % L & C2 in series, in parallel with R, all of this group in series with C1
-Zf = abs(((1/(2*pi*f*C1))*(-i)) + ...
+Zf_Ohms = abs(((1/(2*pi*f*C1))*(-i)) + ...
      (1 / ((1 / (((1/(2*pi*f*C2))*(-i)) + ((2*pi*f*L)*(i)))) + (1/R))));
