@@ -8,6 +8,7 @@ Electrical filter transfer functions and calculations, based on standardised and
     * [Terminology](#terminology)
     * [C-Type Passive Filter - CTPF](#c-type-passive-filter---ctpf)
     * [LCL Filter](#lcl-filter)
+    * [Series LC Filter](#series-lc-filter)
 
 &nbsp;
 
@@ -76,6 +77,26 @@ _Bode plot (filter impedance)_
 _Filter circuit_
 
 <img src="./docs/lib/images/lcl.svg" width="450"/>
+
+_Bode plot (filter impedance)_
+
+&nbsp;
+
+
+
+### Series LC Filter
+
+| Feature | Comments |
+| :------ | :------ |
+| Reference paper(s) | N/A |
+| Use case(s) | Shunt filter. Filtering the high-order current harmonics at the inverter switching frequency |
+| Source code | [series_lc.m](./src/series/series_lc.m) |
+
+<img src="./docs/schematics/D000001_Series_LC.svg" width="450"/>
+
+_Filter circuit_
+
+<img src="./docs/lib/images/series_lc.svg" width="450"/>
 
 _Bode plot (filter impedance)_
 
