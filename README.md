@@ -4,6 +4,7 @@ Electrical filter transfer functions and calculations, based on standardised and
 
 * [Overview](#overview)
 * [Octave](#octave)
+* [drawio](#drawio)
 * [Filters](#filters)
     * [Terminology](#terminology)
     * [C-Type Passive Filter - CTPF](#c-type-passive-filter---ctpf)
@@ -24,7 +25,15 @@ The aim of this repository is to gather concise and useful filter design and res
 
 ## Octave
 
-[GNU Octave](https://octave.org/) is used _(as an alternative to [MATLAB](https://www.mathworks.com/products/matlab.html))_ for the computation of filter responses.
+[GNU Octave](https://github.com/gnu-octave/octave) is used _(as an alternative to [MATLAB](https://www.mathworks.com/products/matlab.html))_ for the computation of filter responses.
+
+&nbsp;
+
+
+
+## drawio
+
+[drawio](https://github.com/jgraph/drawio) is used to generate the schemtaics and export them as SVG for embedding in web pages.
 
 &nbsp;
 
