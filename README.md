@@ -33,7 +33,7 @@ The aim of this repository is to gather concise and useful filter design and res
 
 ## drawio
 
-[drawio](https://github.com/jgraph/drawio) is used to generate the schemtaics and export them as SVG for embedding in web pages.
+[drawio](https://github.com/jgraph/drawio) is used to generate the schematics and export them as SVG for embedding in web pages.
 
 &nbsp;
 
