@@ -1,5 +1,7 @@
 # Filter Circuit Computation
 
+[![Github Action for Octave](https://github.com/micksuffolk/filter-circuit-computation/actions/workflows/octavetest.yml/badge.svg)](https://github.com/micksuffolk/filter-circuit-computation/actions/workflows/octavetest.yml)
+
 Electrical filter transfer functions and calculations, based on standardised and widely adopted filter designs.
 
 * [Overview](#overview)
